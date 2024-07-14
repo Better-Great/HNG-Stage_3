@@ -35,7 +35,7 @@ def send_email(recipient):
         smtp_server = "smtp.gmail.com"
         port = 587
         sender_email = "abiegbeg@gmail.com"
-        password = "mpygzshnjkelcant"
+        password = "your-app-password"
         recipient_email = "destiny@destinedcodes.com"
 
         message = MIMEText("This is a test email from your messaging system.")
